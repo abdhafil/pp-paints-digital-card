@@ -1,1 +1,1 @@
-export const APP_NAME = 'P P PAINTS Digital Business Card'
+export const APP_NAME = "P P PAINTS Digital Business Card";
