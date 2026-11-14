@@ -18,6 +18,11 @@ const business = {
     //   "https://www.justdial.com/Palakkad/P-P-Paints-Opposite-Federal-Bank-Kalladikode/9999PX491-X491-230310091639-G2M7_BZDET",
   },
   maps: "https://maps.app.goo.gl/8Y4YiRfPv9dBekXW9",
+  mapEmbed: "https://www.google.com/maps?q=P%20P%20Paints%2C%20Kalladikode%2C%20Kerala&output=embed",
+  whatsapp: "919946834377",
+  openingHours: "Please contact the store to confirm",
+  coverage: 120,
+  packSizes: [20, 10, 4, 1],
   heroImage:
     "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=85",
   aboutImage:
@@ -46,6 +51,18 @@ const business = {
       description: "Painting tools and essentials.",
       image:
         "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      name: "Wood & Metal",
+      description: "Explore finishes for wood and metal surfaces.",
+      image:
+        "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      name: "Waterproofing",
+      description: "Ask about solutions for damp-prone areas.",
+      image:
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
     },
   ],
   colourInspiration: [
