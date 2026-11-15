@@ -1,12 +1,23 @@
-# P P PAINTS Digital Business Card
+# P P Paints — Kalladikode
 
-Single-page digital business card for P P PAINTS, Kalladikode, Palakkad, Kerala.
+A responsive, single-page paint shop website built with React, Vite and Tailwind CSS v4. It includes a colour visualiser, room paint estimate calculator, product categories, store details and WhatsApp enquiry links.
 
-## Development
+## Run locally
 
-- `npm run dev` starts the Vite development server.
-- `npm run build` creates a production build.
+```bash
+npm install
+npm run dev
+```
 
-Business details and profile links are maintained in `src/data/business.js`. Put public images in `public/images` and imported source assets in `src/assets`.
+## Build
 
-The app uses React, Vite, JavaScript, and Tailwind CSS v4. It has no backend or router.
+```bash
+npm run build
+npm run preview
+```
+
+## Shop configuration
+
+Edit `src/data/business.js` to update the WhatsApp number, phone, location, map link, imagery, product categories, coverage rate and available pack sizes. `openingHours` is currently marked for confirmation. Ask the shop to confirm hours and current brand availability before publishing those details.
+
+The Open Graph image currently uses the supplied shop logo at `public/images/logo/logo.jpg`. Replace it with a wide social sharing image when one is available. Product and room photos use remote Unsplash image URLs; local copies can be placed in `public/images` and configured in `src/data/business.js`.
